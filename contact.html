@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!--<link rel="stylesheet" href="./css/contact.css">-->
+    <link rel="stylesheet" href="./css/mininfier.css">
+</head>
+<body>
+    <header class="header-part">
+        <div class="header container">
+            <div class="header-top">
+                <div class="top-left">
+                    <a href="#" class="logo-link">
+                        <img src="./images/logo.svg" alt="logo">
+                    </a>
+                    <div class="exchange-rates">
+                        <div class="valyuta-up">
+                            <p class="valyuta-number dollor">100137.27</p>
+                        </div>
+                        <div class="valyuta-up">
+                            <p class="valyuta-numbe perce">138.26</p>
+                        </div>
+                        <div class="valyuta-up">
+                            <p class="valyuta-number euro">10988.72</p>
+                        </div>
+                    </div>           
+                </div>
+                <div class="top-right">
+                    <div class="form-wrapper">
+                        <form method="get">
+                            <input class="form-search" name="search" type="search" placeholder="Nima qidiramiz?" required>
+                        </form>
+                    </div>
+                    <div class="right-search">
+                        <span class="search">
+                            <img class="search-img" src="./images/search.svg" alt="search" width="17" height="17">
+                        </span>
+                        <div class="russian-language">
+                            <p class="language">РУ</p>
+                        </div>
+                    </div>
+                    <div class="top-right-links">
+                        <a class="top-right-link" href="#">Подписатся</a>
+                    </div>
+                </div>
+            </div>
+            <nav class=" navbar">
+                <ul class="nav-lists">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Узбекистана</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Мир</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Экономика</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Политика</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Общество</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Технологии</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Спорт</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Культура</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Происшествия</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link last-link">Туризм</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-bottom">
+                <a href="#" class="banner-img-link">
+                    <img class="banner-img" src="./images/banner-img.png" alt="banner">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="hero-part">
+        <div class="apply-part container">
+            <div class="form-hero-wrapper">
+                <h2 class="hero-wrapper-title">Напишите нам</h2>
+                <form action="index.html" method="get">
+                    <div class="form-name">
+                        <input 
+                            class="wrapper-input" 
+                            id="name" 
+                            name="name" 
+                            minlength="6" 
+                            maxlength="12" 
+                            type="text" 
+                            placeholder="Имя"
+                            required>
+                    </div>
+                    <div class="form-name">
+                        <input 
+                            class="wrapper-input" 
+                            id="email" 
+                            name="email" 
+                            type="text" 
+                            placeholder="Электронная почта"
+                            required>
+                    </div>
+                    <div class="form-name">
+                        <input 
+                            class="wrapper-input"
+                            id="tell" 
+                            name="tel"  
+                            type="number" 
+                            placeholder="Номер телефона"
+                            required>
+                    </div>
+                    <div class="form-name">
+                        <input 
+                            class="wrapper-input"
+                            name="text"
+                            id="text" 
+                            type="text" 
+                            placeholder="Тема"
+                            required>
+                    </div>
+                    <div class="form-name-text">
+                        <textarea 
+                            class="wrapper-textarea" 
+                            name="description" 
+                            id="description" 
+                            cols="30" 
+                            rows="10" 
+                            placeholder="Текст"
+                            required></textarea>
+                    </div>
+                    <label for="file-input">
+                        Прикрепить файл
+                        <input type="file" name="file" id="file-input"/>
+                    </label>
+                    <div class="form-name-btn">
+                        <input 
+                            class="wrapper-input-small" 
+                            type="password" 
+                            name="password" 
+                            id="password"
+                            minlength="6" 
+                            maxlength="12" 
+                            placeholder="Код" 
+                            required>
+        
+                    </div>
+                    <button class="wrapper-btn" type="submit">Отправить</button>
+                </form>
+            </div>
+            <div class="wrapper-social-networks">
+                <a href="#" class="networks-logo-link">
+                    <img class="networks-logo-image" src="./images/form-img-logo.png" alt="network-logo">
+                </a>
+                <div class="social-networks">
+                    <div class="networks-card">
+                        <p class="networks-name">
+                         Электронная почта
+                        </p>
+                        <a href="#" class="info-link">info@namanganliklar24.uz</a>
+                    </div>
+                    <div class="networks-card">
+                        <p class="networks-name">
+                         Социальные сети
+                        </p>
+                        <div class="networks-card-child">
+                            <a href="#" class="network-image-link">
+                                <img class="networks-images" src="./images/form-img-facebook.png" alt="facebook-image">
+                            </a>
+                            <a href="#" class="network-image-link">
+                                <img class="networks-images" src="./images/form-img-twitter.png" alt="twitter-image">
+                            </a>
+                            <a href="#">
+                                <img class="networks-images" src="./images/form-img-odnoklosniki.png" alt="odnoklosniki-image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="networks-card">
+                        <p class="networks-name">
+                            Телеграм канал
+                        </p>
+                        <div class="networks-card-child">
+                            <a class="networks-img-link" href="#">
+                                <img class="networks-telegram-img networks-images" src="./images/networks-telegram-image.png" alt="telegram-img">
+                                Подписатся
+                            </a>
+                        </div>
+                    </div>
+                    <div class="networks-card">
+                        <p class="networks-name">
+                         Мобильная приложение
+                        </p>
+                        <div class="prilojeniye-card">
+                            <a href="#" class="prilojeniye-link">
+                                <img class="prilojeniye-img" src="./images/netowrks-googleplay.svg" alt="" width="110" height="40">
+                            </a>
+                            <a href="#">
+                                <img class="prilojeniye-img" src="./images/networks-appstore.svg" alt="" width="110" height="40">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </main>
+    <footer class="footer-part-end">
+        <div class="container">
+            <div class="part-end-top">
+                <a href="#" class="footer-logo-link">NAMANGANLIKLAR24</a>
+                <p class="part-end-text">
+                    Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:
+                </p>
+                <a class="footer-part-end-link" href="#">
+                    <p>Подписатся</p>
+                </a>
+            </div>
+            <hr class="part-end-line">
+            <div class="part-end-bottom">
+                <ul class="part-end-list-1">
+                    <li class="part-end-list-item">
+                        <p class="part-end-list-item-text">
+                            О сайте
+                        </p> 
+                    </li>
+                    <li class="part-end-list-item">
+                        <p class="part-end-list-item-text">
+                            Воспроизводство, копирование, тиражирование, распространение и иное использование информации 
+                            с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+                        </p> 
+                    </li>
+                </ul>
+                <ul class="part-end-list-2">
+                    <li class="part-end-list-item">
+                        <a href="#" class="part-end-link">Информация о сайте</a>
+                    </li>
+                    <li class="part-end-list-item">
+                        <a href="#" class="part-end-link">Напишите нам</a>
+                    </li>
+                    <li class="part-end-list-item">
+                        <a href="#" class="part-end-link">Реклама</a>
+                    </li>
+                    <li class="part-end-list-item">
+                        <a href="#" class="part-end-link">Прислать новость</a>
+                    </li>
+                </ul>
+                <ul class="part-end-list-3">
+                    <li class="part-end-list-item">
+                        <a href="#" class="part-end-link">Использование материалов</a>
+                    </li>
+                    <li class="part-end-list-item">
+                        <a href="#" class="part-end-link">Темы дня</a>
+                    </li>
+                    <li class="part-end-list-item">
+                        <a href="#" class="part-end-link">Наша команда</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
